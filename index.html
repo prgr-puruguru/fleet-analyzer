@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="ぷるぐる">
+        <title>艦隊分析</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="favicon/manifest.json">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="fleet-analyzer.css">
+
+        <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+        <noscript>
+            <style type="text/css">
+                noscript {
+                    display: inline;
+                }
+            </style>
+        </noscript>
+    </head>
+    <body>
+        <p>
+            <form id="fleet-code-submitter" onsubmit="return false;">
+                <p>
+                    <a href="http://kancolle-calc.net/kanmusu_list.html">艦隊晒しページ（仮）</a>で生成したコード：
+                </p>
+                <p>
+                    <textarea cols="75" rows="20" name="fleet" autofocus tabindex=1>.2|465:155.2|433:155.2|440:155.2|33:155.3</textarea>
+                    <button type="submit" name="submitter" tabindex=2>提出</button>
+                </p>
+            </form>
+        </p>
+        <noscript>
+            <p>
+                Javascriptが無効だと<img src="cant-show.jpg" alt="見せられないよ！" style="width: 400px; height: 400px">
+            </p>
+        </noscript>
+        <script type="text/javascript" src="fleet-analyzer.js"></script>
+        <footer>
+            <p>
+                <small>Copyright 2016 <a href="https://github.com/prgr-puruguru">ぷるぐる</a></small>
+            </p>
+        </footer>
+    </body>
+</html>
+

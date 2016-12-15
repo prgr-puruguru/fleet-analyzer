@@ -1,0 +1,50 @@
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Meiryo', 'YuGothic', sans-serif;
+}
+
+noscript {
+    display: none;
+}
+
+footer {
+    background-color: whitesmoke;
+    font-size: 10pt;
+    padding: 5px 5px 5px 5px;
+    text-align: right;
+}
+
+text {
+    fill: black;
+    font-size: 10pt;
+}
+
+.graph-title {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.axes {
+    shape-rendering: crispEdges;
+}
+
+.axes path,
+.axes line {
+    fill: none;
+    stroke: black;
+}
+
+.axes .grid {
+    stroke: gray;
+    stroke-opacity: 0.3;
+    stroke-dasharray: 3,3;
+}
+
+.points {
+    stroke-opacity: 0.1;
+    stroke-width: 3px;
+    fill-opacity: 0.4;
+}
+
+circle {
+    r: 3px;
+}
