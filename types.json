@@ -1,0 +1,86 @@
+{
+    "num_types":18,
+
+    "English":[
+        "Fleet Oiler",
+        "Training Cruiser",
+        "Repair Ship",
+        "Armored Carrier",
+        "Submarine Tender",
+        "Amphibious Assault Ship",
+        "Seaplane Carrier",
+        "Aircraft Carrying Submarine",
+        "Submarine",
+        "Aircraft Carrier",
+        "Aviation Battleship",
+        "Battleship",
+        "Light Aircraft Carrier",
+        "Aircraft Cruiser",
+        "Heavy Cruiser",
+        "Torpedo Cruiser",
+        "Light Cruiser",
+        "Destroyer"
+    ],
+
+    "Japanese":[
+        "補給艦",
+        "練習巡洋艦",
+        "工作艦",
+        "装甲空母",
+        "潜水母艦",
+        "揚陸艦",
+        "水上機母艦",
+        "潜水空母",
+        "潜水艦",
+        "正規空母",
+        "航空戦艦",
+        "戦艦",
+        "軽空母",
+        "航空巡洋艦",
+        "重巡洋艦",
+        "重雷装巡洋艦",
+        "軽巡洋艦",
+        "駆逐艦"
+    ],
+
+    "num_aggregate_types":5,
+
+    "Aggregators":[
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        5,
+        5,
+        4,
+        3,
+        3,
+        4,
+        2,
+        2,
+        2,
+        2,
+        1
+    ],
+
+    "English_Aggregate":[
+        "Specialty Ships",
+        "Destroyers (Small)",
+        "Cruisers (Medium)",
+        "Battleships (Large)",
+        "Carriers",
+        "Submarines"
+    ],
+
+    "Japanese_Aggregate":[
+        "特殊艦",
+        "駆逐艦（小型艦）",
+        "巡洋艦（中型艦）",
+        "戦艦（大型艦）",
+        "空母系",
+        "潜水艦"
+    ]
+}
